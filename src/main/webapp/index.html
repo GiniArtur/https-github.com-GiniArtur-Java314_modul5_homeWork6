@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOP 100 LAPTOPS</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="root">
+      <form action="/laptopList" class="container" method="get">
+        <h3>Поиск Ноутбуков</h3>
+        <table>
+          <tr>
+            <td>Название производителя</td>
+            <td><input type="text" name="manufacturer" /></td>
+          </tr>
+          <tr>
+            <td>Объем SSD</td>
+            <td><input type="text" name="ssdVolume" /></td>
+          </tr>
+          <tr>
+            <td>Тип видеокарты</td>
+            <td><input type="text" name="gpuType" /></td>
+          </tr>
+          <tr>
+            <td>Модель процессора</td>
+            <td><input type="text" name="cpuModel" /></td>
+          </tr>
+          <tr>
+            <td>Операционная система</td>
+            <td><input type="text" name="operationSystem" /></td>
+          </tr>
+          <tr>
+            <td>Тип матрицы</td>
+            <td><input type="text" name="displayType" /></td>
+          </tr>
+          <tr>
+            <td>Разрешение экрана</td>
+            <td><input type="text" name="screenResolution" /></td>
+          </tr>
+          <tr>
+            <td>Сенсорный экран</td>
+            <td><input type="text" name="touchScreen" /></td>
+          </tr>
+          <tr>
+            <td>Подцветка клавиатуры</td>
+            <td><input type="text" name="keybordLED" /></td>
+          </tr>
+          <tr>
+            <td><input type="submit" class="submit" value="Поиск" /></td>
+            <td><input type="reset" class="reset" value="Сбросить" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
